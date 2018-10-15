@@ -15,3 +15,9 @@ Using only proportionality for read/target value.
 Using proportionality for read/target value and pwm.
 
 Video [https://www.youtube.com/watch?v=m6xne2mSTUo](https://www.youtube.com/watch?v=m6xne2mSTUo)
+
+## HELP!
+I'm not familiar with nodeJS yet, and I need to submit this on that language. Any help would be appreciated.
+
+## Special thanks
+Special Thanks to Naldin for creating this repo (which I forked hahahaha)
