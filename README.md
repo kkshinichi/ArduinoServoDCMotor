@@ -21,3 +21,6 @@ I'm not familiar with nodeJS yet, and I need to submit this on that language. An
 
 ## Special thanks
 Special Thanks to Naldin for creating this repo (which I forked hahahaha)
+
+## P.S.
+There will be some codes that are not necessary here, but I'll place it anyways HAHAHAHA
