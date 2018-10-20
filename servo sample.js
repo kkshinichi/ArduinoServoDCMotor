@@ -5,27 +5,21 @@ var board = new five.Board({
 });
 
 board.on('ready', function() {
-	var up = new five.Button(4);
-	var down = new five.Button(5);
+	var toggle = new five.Switch(5);
 	var servo = new five.Servo(1);
 	this.repl.inject({
     servo: servo,
-    button: up,
-    button: down
+    toggle: toggle
   });
 
-	up.on("down", function() {
-		console.log("Going Down.");
-		servo.min();
-	});
-	down.on("down", function() {
+	toggle.on("close", function() {
 		console.log("Going Up");
 		servo.center();
 	});
-
-
-	// servo.center();
-	// board.wait(2000, function() {
-	// 	servo.min();
-	// });
+	toggle.on("open", function() {
+		console.log("Going Down");
+		servo.min();
+	});
 });
+
+// 180-270
